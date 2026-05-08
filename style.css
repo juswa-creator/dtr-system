@@ -1,0 +1,86 @@
+body { 
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #36e648, #dcdcdc);
+    min-height: 100vh;
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-box {
+    background: #ffffff;
+    padding: 35px 30px;
+    border-radius: 12px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.dashboard {
+    width: 100%;
+    max-width: 900px;
+}
+h2, h3 {
+    color: #333;
+}
+.card {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+.time-actions {
+    display: flex;
+    gap: 10px;
+}
+.attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.attendance-table th {
+    background: #000;
+    color: #fff;
+}
+.attendance-table th,
+.attendance-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.logout-btn {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    background: #000;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.error {
+    color: red;
+}
